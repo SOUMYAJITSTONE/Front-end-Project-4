@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -238,7 +240,7 @@ body{
 #page2-part1 {
     height: 100%;
     width: 50%;
-    background-image: url(https://images.unsplash.com/photo-1525449779982-c1d3495bca97?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://www.bellazon.com/main/uploads/monthly_2024_04/gallery_model_zBQpLKZH04la.jpeg.49ad1060faeb531284ba12da1ac502c2.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 1%;
@@ -251,10 +253,16 @@ body{
 
 #page2-part2{
     height: 100%;
-    width: 46%;
+    width:46%;
     /* display: flex; */
+    
+    
 
     
+}
+#page2-part2 img{
+    object-fit: cover;
+    object-position: top ;
 }
 #text{
     width: 100%;
@@ -337,6 +345,9 @@ body{
     position: relative;
     left: 20%;
     top: 10%;
+    border-radius: 50%;
+    background-color: #F8F8F8;
+
 }
 #small-text h3{
     height: 100%;
@@ -623,13 +634,13 @@ body{
     padding-top: 2%;
 }
 #text3 h5{
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 1vw;
     letter-spacing: 0cm;
 }
 #text3 p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 300;
     font-size: 1vw;
     width: 98%;
@@ -727,7 +738,9 @@ img {
 }
 
 #rounded-text img:hover {
-    transform: rotate(360deg) scale(1.1);
+    transform: rotate(360deg) scale(1);
+    /* border-radius: 50%; */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 #over1 h2:hover {
